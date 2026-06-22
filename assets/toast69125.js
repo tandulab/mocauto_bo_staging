@@ -1,0 +1,1 @@
+import{ae as o,af as t}from"../index69125.js";function r(s){const a=o.config.globalProperties.$toast;let e;s instanceof t?e=s.response?.data?.message:e=s.message,a.add({severity:"error",summary:e,life:5e3})}function c(s){o.config.globalProperties.$toast.add({severity:"success",summary:s,life:5e3})}export{c as a,r as s};
