@@ -1,0 +1,1 @@
+import{ae as t}from"../index56162.js";class s{static async fetchCars(a){return await t.get("/cars",{params:a})}static async fetchCarDetail(a){return await t.get(`/cars/${a}`)}static async createCar(a){return await t.post("/cars",a)}static async updateCar(a,r){return await t.patch(`/cars/${a}`,r)}static async deleteCar(a){return await t.delete(`/cars/${a}`)}}export{s as C};
